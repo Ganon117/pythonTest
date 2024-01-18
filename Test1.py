@@ -8,7 +8,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(True, True)  # add assertion here
 
     def test_add(self):
-        self.assertEqual(10 + 3, 6)
+        self.assertEqual(2 + 2, 6)
 
 
 if __name__ == '__main__':
