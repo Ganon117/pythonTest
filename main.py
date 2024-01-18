@@ -1,5 +1,10 @@
 # This is a sample Python script.
+import unittest
 import zipfile
+
+import out
+import xmlrunner
+from xmlrunner.extra.xunit_plugin import transform
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
