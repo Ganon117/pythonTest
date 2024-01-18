@@ -2,7 +2,6 @@ import logging
 import sys
 import unittest
 
-from xmlrunner.extra.xunit_plugin import transform
 
 
 class MyTestCase(unittest.TestCase):
