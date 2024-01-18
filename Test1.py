@@ -2,7 +2,6 @@ import logging
 import sys
 import unittest
 
-import xmlrunner
 from xmlrunner.extra.xunit_plugin import transform
 
 
@@ -15,9 +14,5 @@ class MyTestCase(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main(
-        testRunner=xmlrunner.XMLTestRunner(output='test-reports'),
-        failfast=False,
-        buffer=False,
-        catchbreak=False)
+    unittest.main()
 
